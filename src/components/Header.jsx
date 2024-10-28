@@ -43,6 +43,14 @@ const Header = () => {
               Contact Us
             </NavLink>
           </li>
+          <li>
+            <NavLink
+              to="/user-list"
+              className={({ isActive }) => (isActive ? "active" : "")}
+            >
+              Users
+            </NavLink> {/* Added Users NavLink */}
+          </li>
         </ul>
       </nav>
     </header>
